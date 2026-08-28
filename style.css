@@ -12,7 +12,15 @@ body {
 }
 
 .nav-bar {
-    margin-top: 10px;
+    padding: 10px 120px;
+    padding-top: 20px;
+    padding-bottom: -20px;
+}
+
+.nav-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 .btn {
@@ -21,8 +29,8 @@ body {
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
-    font-size: 30px;
-    border-radius: 15px;
+    font-size: 22px;
+    border-radius: 10px;
     transition: background-color 0.3s ease;
 }
 
@@ -31,7 +39,8 @@ body {
 }
 
 .logo span {
-    color: #0b2447c0;
+    
+    font-weight: lighter;
 }
 
 .pages li {
@@ -39,13 +48,13 @@ body {
 }
 
 .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('hero.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/hero.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     color: #ffffff;
     height: 100vh;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .hero-comment {
@@ -74,7 +83,7 @@ body {
 }
 
 .btn2 {
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 20px 30px;
     background-color: white;
     color: #0B2447;
@@ -82,7 +91,7 @@ body {
 }
 
 .btn3 {
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 17px 35px;
     font-size: 25px;
     border: 3px solid white;
@@ -130,6 +139,7 @@ body {
 
 .card1 {
     width: 300px;
+    box-shadow: 5px 5px 5px 10px white;
 }
 
 .card-card p {
