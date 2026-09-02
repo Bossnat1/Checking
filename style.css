@@ -19,6 +19,10 @@
     font-weight: lighter;
 }
 
+.home {
+    color: #0B2447;
+}
+
 .pages li {
     color: #2B3648;
 }
@@ -36,7 +40,7 @@
     height: 370px;
     width: 770px;
     padding: 20px 50px;
-    border-radius: 40px;
+    border-radius: 20px;
     background-color: rgba(11, 36, 71, 0.8);
 }
 
@@ -125,6 +129,7 @@
     padding: 30px;
     border: 1px solid #FFFFFF;
     border-radius: 35px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
 }
 
 .works-card h1, .works-card h2 {
@@ -195,6 +200,18 @@
     position: relative;
     top: 870px;
     left: 200px;
+}
+
+.download{
+    background-color: #861B13;
+}
+
+.download-btn {
+    color:#0B2447;
+}
+
+.content h1, .content p {
+    color: #dce6f2
 }
 
 .card-container > * + * {
