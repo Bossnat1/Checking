@@ -7,15 +7,15 @@
     <link rel="stylesheet" href="style.css">
     <title>Crisis Connect</title>
 </head>
-<body>
-    <header>
-        <nav class="nav-bar flex justify-between items-center p-4">
+<body class="overflow-x-hidden">
+    <header class="mb-10!">
+        <nav class="nav-bar flex justify-between items-center gap-12 p-4 md:ml-30! md:mr-30! pt-5!">
             <div class="flex items-center gap-3">
                 <img src="./Images/logo.png" alt="Crisis Connect Logo" class="h-10 w-auto">
-                <h1 class="logo text-[26px] font-bold">CRISIS <span>CONNECT</span></h1>
+                <h1 class="logo text-[20px] md:text-[26px] font-bold">CRISIS <span class="">CONNECT</span></h1>
             </div>
 
-            <div class="nav-content">
+            <div class="nav-content flex gap-10">
                 <ul class="pages flex gap-8 items-center text-[24px]">
                     <li><a href="./Pages/home.html">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -23,45 +23,45 @@
                     <li><a href="#resources">Resources</a></li>
                 </ul>
 
-                <button class="btn">Get the App</button>
+                <button class="btn bg-[#0B2447] text-white p-2! rounded-[10px] text-[20px] md:text-[25px]">Get the App</button>
             </div>
         </nav>
     </header>
 
-    <section class="hero p-4">
-        <div class="relative flex items-center">
-            <div class="hero-comment">
+    <section class="hero p-4 min-h-fit">
+        <div class="relative flex items-center justify-space-between">
+            <div class="hero-comment mt-30! lg:ml-30!">
                 <h1>Together We <span>Respond</span>. Together We <span>Save</span> Lives.</h1>
 
                 <p class="text-[30px]/10">Your all-in-one platform connecting citizens, volunteers, <br> responders, agencies and governments in real-time to <br> manage emergencies and saves lives.</p>
 
-                <button class="btn2">Download the App</button>
+                <button class="btn2 mb-3!">Download the App</button>
                 <button class="btn3">Watch Video</button>
             </div>
 
             <div class="hero-image flex items-center">
-                <img src="./Images/mock 4.png" alt="" class="image1 h-[550px]">
-                <img src="./Images/mock 3.png" alt="" class="image3 h-[550px]">
+                <img src="./Images/mock 4.png" alt="" class="image1 h-[550px] hidden lg:block">
+                <img src="./Images/mock 3.png" alt="" class="image3 h-[550px] hidden lg:block">
             </div>
         </div>
 
         <div class="">
-            <div class="card-container">
-                <div class="card flex gap-5">
+            <div class="card-container flex flex-col md:flex-row items-center gap-3 mt-30! lg:ml-30!">
+                <div class="card flex gap-5 w-[350px] lg:w-[300px]">
                     <img src="./Images/speed.png" alt="" class="h-[70px]">
                   <div class="card-card flex flex-col gap-5">
                     <h3 class="text-[25px] font-bold">Real-Time Alerts</h3>
                     <p class="text-[25px]/7">Instant incident notifications</p>
                   </div>
                 </div>
-                <div class="card flex gap-5">
+                <div class="card flex gap-5 w-[350px]">
                     <img src="./Images/Frame 1874428484 (1).png" alt="" class="h-[70px]">
                   <div class="card-card flex flex-col gap-5">
                     <h3 class="text-[25px] font-bold">Unified Coordination</h3>
                     <p class="text-[25px]/7">Everyone works from the same page</p>
                   </div>
                 </div>
-                <div class="card flex gap-5">
+                <div class="card flex gap-5 w-[350px]">
                     <img src="./Images/ShieldCheck (3).png" alt="" class="h-[70px]">
                   <div class="card-card flex flex-col gap-5">
                     <h3 class="text-[25px] font-bold">Built for Reliability</h3>
@@ -74,100 +74,101 @@
         </div>
     </section>
 
-    <div class="second-container">
-        <div class="second-head">
-            <h2>One Platform. Built for Everyone</h2>
-            <p>One connected response chain from the moment an emergency is reported to the moment help arrives.</p>
+    <div class="second-container mt-25!">
+        <div class="second-head mb-40!">
+            <h2 class="text-[55px]/12 font-bold text-center mb-8!">One Platform. Built for Everyone</h2>
+            <p class="text-[30px]/8 text-center lg:w-[1100px] lg:ml-[520px]! lg:mt-3!">One connected response chain from the moment an emergency is reported to the moment help arrives.</p>
         </div>
 
-        <div class="grid">
-            <div class="card-grid">
-                <img src="./Images/Group 273.png" alt="">
-                <h1>Citizens</h1>
-                <p>Report emergencies, share critical information, and stay connected until help arrives</p>
+        <div class="grid items-center lg:pl-22! lg:pr-22! lg:grid-cols-4 md:grid-cols-2">
+            <div class="card-grid flex flex-col items-center gap-5 w-[400px] h-[400px] rounded-[10px] pl-12! pr-12! pt-16!">
+                <img src="./Images/Group 273.png" alt="" class="h-[100px]">
+                <h1 class="text-[40px] font-bold">Citizens</h1>
+                <p class="text-[24px]/7 text-center">Report emergencies, share critical information, and stay connected until help arrives</p>
             </div>
-            <div class="card-grid">
-                <img src="./Images/Group 294.png" alt="">
-                <h1>Volunteers</h1>
-                <p>Get notification of emergency near you, accept assignments, and make an impact</p>
+            <div class="card-grid flex flex-col items-center gap-5 w-[410px] h-[400px] rounded-[10px] pl-10! pr-10! pt-16! border border-blue-200">
+                <img src="./Images/Group 294.png" alt="" class="h-[130px]">
+                <h1 class="text-[40px] font-bold">Volunteers</h1>
+                <p class="text-[24px]/7 text-center">Get notification of emergency near you, accept assignments, and make an impact</p>
             </div>
-            <div class="card-grid">
-                <img src="./Images/Group 272.png" alt="">
-                <h1>Agencies</h1>
-                <p>Assign responders, mobilize available resources, and coordinate with volunteers</p>
+            <div class="card-grid flex flex-col items-center gap-5 w-[410px] h-[400px] rounded-[10px] pl-10! pr-10! pt-16! border border-blue-200">
+                <img src="./Images/Group 272.png" alt="" class="h-[130px]">
+                <h1 class="text-[40px] font-bold">Agencies</h1>
+                <p class="text-[24px]/7 text-center">Assign responders, mobilize available resources, and coordinate with volunteers</p>
             </div>
-            <div class="card-grid">
-                <img src="./Images/Group 272 (1).png" alt="">
-                <h1>Government</h1>
-                <p>Monitor regional emergencies, observe response progress, and make informed decisions</p>
+            <div class="card-grid flex flex-col items-center text-center gap-5 w-[410px] h-[400px] rounded-[10px] pl-10! pr-10! pt-16! border border-blue-200">
+                <img src="./Images/Group 272 (1).png" alt="" class="h-[150px]">
+                <h1 class="text-[40px] font-bold">Government</h1>
+                <p class="text-[24px]/7 text-center">Monitor regional emergencies, observe response progress, and make informed decisions</p>
             </div>
         </div>
     </div>
 
-    <section class="time-main">
-        <div class="time-head">
-            <h4>Why Crisis Connect?</h4>
-            <p>Connecting people, responders, and communities for faster, smarter, coordinated emergency response.</p>
+    <section class="time-main mt-40! mb-30!">
+        <div class="time-head mb-30!">
+            <h4 class="text-[55px]/12 font-bold text-center lg:-ml-20! mb-7!">Why Crisis Connect?</h4>
+            <p class="text-[33px]/9 ml-15! lg:w-[1000px] lg:text-center lg:ml-135!">Connecting people, responders, and communities for faster, smarter, coordinated emergency response.</p>
         </div>
 
-        <div class="time-content">
-            <div class="">
-                <div class="time-container flex gap-4">
-                    <img src="./Images/Frame 4.png" alt="" class="h-[110px]">
-                    <div class="time">
+        <div class="time-content flex flex-col lg:flex-row items-center justify-around">
+            <div class="flex flex-col gap-5 mb-3!">
+                <div class="time-container flex flex-col lg:flex-row items-center gap-4 rounded-[15px] w-[370px] h-[350px] lg:w-[850px] lg:h-[180px] pt-8! pl-5! pr-5! lg:pt-2!">
+                    <img src="./Images/Frame 4.png" alt="" class="h-[100px] w-[100px] lg:h-[110px]">
+                    <div class="time flex flex-col gap-3 text-center lg:text-left">
                         <h5 class="text-[25px] font-bold">Real-Time Awareness</h5>
-                        <p class="text-[22px]/8 w-[700px]">Stay informed with real-time incident reporting, status updates, and critical information throughout the response.</p>
+                        <p class="text-[22px]/7 lg:w-[700px]">Stay informed with real-time incident reporting, status updates, and critical information throughout the response.</p>
                     </div>
                 </div>
-                <div class="time-container flex gap-4">
+                <div class="time-container flex flex-col lg:flex-row items-center gap-4 rounded-[15px] w-[370px] h-[350px] lg:w-[850px] lg:h-[180px] pt-8! pl-5! pr-5! lg:pt-2!">
                     <img src="./Images/Frame 4 (8).png" alt="" class="h-[110px]">
-                    <div class="time">
+                    <div class="time flex flex-col gap-3 text-center lg:text-left">
                         <h5 class="text-[25px] font-bold">Seamless Coordination</h5>
-                        <p class="text-[22px]/8 w-[700px]">Connect agencies, responders, and volunteers through seamless communication and coordinated action in one place.</p>
+                        <p class="text-[22px]/7 lg:w-[700px]">Connect agencies, responders, and volunteers through seamless communication and coordinated action in one place.</p>
                     </div>
                 </div>
-                <div class="time-container flex gap-4">
+                <div class="time-container flex flex-col lg:flex-row items-center gap-4 rounded-[15px] w-[370px] h-[350px] lg:w-[850px] lg:h-[180px] pt-8! pl-5! pr-5! lg:pt-2!">
                     <img src="./Images/Group.png" alt="" class="h-[110px]">
-                    <div class="time">
+                    <div class="time flex flex-col gap-3 text-center lg:text-left">
                         <h5 class="text-[25px] font-bold">Dependable & Secure</h5>
-                        <p class="text-[22px]/8 w-[700px]">Built for reliable emergency response with secure information, intuitive tools, and a simple experience for everyone.</p>
+                        <p class="text-[22px]/7 lg:w-[700px]">Built for reliable emergency response with secure information, intuitive tools, and a simple experience for everyone.</p>
                     </div>
                 </div>
             </div>
 
             <div class="time-img">
-                <img src="./Images/time pic.png" alt="" class="time-image">
+                <img src="./Images/time pic.png" alt="" class="time-image h-[300px] lg:h-[600px]
+                w-auto rounded-[27px]">
             </div>
         </div>
     </section>
 
-    <div class="test-container">
-        <div class="test">
-            <img src="./Images/UsersThree (1).png" alt="" class="test-image">
-            <h4>50,000+</h4>
-            <p>Active users</p>
+    <div class="test-container bg-[#0B2447] h-[500px] lg:h-[400px] text-white grid grid-cols-2 pl-3! pt-5! lg:flex lg:items-center lg:justify-center lg:gap-25">
+        <div class="test flex flex-col items-center">
+            <img src="./Images/UsersThree (1).png" alt="" class="test-image h-[80px]">
+            <h4 class="text-[45px] lg:text-[65px]">50,000+</h4>
+            <p class="text-[25px]">Active users</p>
         </div>
-        <div class="test">
-            <img src="./Images/City (1).png" alt="" class="test-image">
-            <h4>1,200+</h4>
-            <p>Organizations</p>
+        <div class="test flex flex-col items-center">
+            <img src="./Images/City (1).png" alt="" class="test-image h-[80px]">
+            <h4 class="text-[45px] lg:text-[65px]">1,200+</h4>
+            <p class="text-[25px]">Organizations</p>
         </div>
-        <div class="test">
-            <img src="./Images/ShieldCheck (2).png" alt="" class="test-image">
-            <h4>99.9%</h4>
-            <p>Uptime</p>
+        <div class="test flex flex-col items-center">
+            <img src="./Images/ShieldCheck (2).png" alt="" class="test-image h-[80px]">
+            <h4 class="text-[45px] lg:text-[65px]">99.9%</h4>
+            <p class="text-[25px]">Uptime</p>
         </div>
-        <div class="test">
-            <img src="./Images/Clock (1).png" alt="" class="test-image">
-            <h4>68%</h4>
-            <p>Faster Response</p>
+        <div class="test flex flex-col items-center">
+            <img src="./Images/Clock (1).png" alt="" class="test-image h-[80px]">
+            <h4 class="text-[45px] lg:text-[65px]">68%</h4>
+            <p class="text-[25px]">Faster Response</p>
         </div>
     </div>
 
-    <section class="setting">
-        <div class="works-container">
-            <h2>How It Works</h2>
-            <p>Crisis Connect turns an emergency report into coordinated action—from reporting to response and resolution.</p>
+    <section class="setting mt-25! mb-330!">
+        <div class="works-container mb-10!">
+            <h2 class="text-[55px] font-bold text-center">How It Works</h2>
+            <p class="text-[32px]/9 w-[1000px] text-center ml-137!">Crisis Connect turns an emergency report into coordinated action—from reporting to response and resolution.</p>
         </div>
 
         <div class="works">
@@ -205,130 +206,132 @@
         </div>
     </section>
 
-    <section class="plat">
-        <div class="plat-sec">
-            <h3>One Platform. Every Emergency.</h3>
-            <p>Report fires, medical emergencies, accidents, crime, floods, and more—so the right responders can act when it matters most.</p>
+    <section class="plat mt-25!">
+        <div class="plat-sec mb-30!">
+            <h3 class="text-[50px]/11 text-center font-bold">One Platform. Every Emergency.</h3>
+            <p class="text-[32px]/10 w-[370px] pl-2! mt-10! lg:w-[1200px] text-center lg:ml-120! md:w-[700px]">Report fires, medical emergencies, accidents, crime, floods, and more—so the right responders can act when it matters most.</p>
         </div>
 
-        <div class="platform-container">
-            <div class="platform">
-                <img src="./Images/Frame 4 (3).png" alt="" class="plat-image">
-                <div class="fire">
-                    <h6>Fire</h6>
-                <p>Report fires and alert the appropriate emergency responders in your area quickly.</p>
+        <div class="platform-container grid grid-cols-1 gap-5 md:grid-cols-2 lg:gap-10 lg:pl-20! lg:pr-20!">
+            <div class="platform flex flex-col lg:flex-row items-center gap-3 w-[380px] lg:w-[850px] h-[300px] lg:h-[200px] rounded-[15px] lg:pl-7! pt-5! lg:pt-0! md:w-[360px] md:h-[400px]">
+                <img src="./Images/Frame 4 (3).png" alt="" class="plat-image h-[100px]">
+                <div class="fire flex flex-col gap-2 text-center lg:text-left">
+                    <h6 class="text-[30px] font-bold">Fire</h6>
+                <p class="text-[22px]">Report fires and alert the appropriate emergency responders in your area quickly.</p>
                 </div>
             </div>
-            <div class="platform">
-                <img src="./Images/Frame 4 (6).png" alt="" class="plat-image">
-                <div class="fire">
-                    <h6>Medical</h6>
-                <p>Report medical emergencies and connect with urgent response 
+            <div class="platform flex flex-col lg:flex-row items-center gap-3 w-[380px] lg:w-[850px] lg:h-[200px] rounded-[15px] lg:pl-7! pt-5! lg:pt-0! md:w-[360px] md:h-[400px]">
+                <img src="./Images/Frame 4 (6).png" alt="" class="plat-image h-[100px]">
+                <div class="fire flex flex-col gap-2 text-center lg:text-left">
+                    <h6 class="text-[30px] font-bold">Medical</h6>
+                <p class="text-[22px]">Report medical emergencies and connect with urgent response 
                 when every second matters.</p>
                 </div>
             </div>
-            <div class="platform">
-                <img src="./Images/Frame 4 (4).png" alt="" class="plat-image">
-                <div class="fire">
-                    <h6>Accidents</h6>
-                <p>Report accidents and help get assistance to the scene as quickly as possible.</p>
+            <div class="platform flex flex-col lg:flex-row items-center gap-3 w-[380px] lg:w-[850px] h-[300px] lg:h-[200px] rounded-[15px] lg:pl-7! pt-5! lg:pt-0! md:w-[360px] md:h-[400px]">
+                <img src="./Images/Frame 4 (4).png" alt="" class="plat-image h-[100px]">
+                <div class="fire flex flex-col gap-2 text-center lg:text-left">
+                    <h6 class="text-[30px] font-bold">Accidents</h6>
+                <p class="text-[22px]">Report accidents and help get assistance to the scene as quickly as possible.</p>
                 </div>
             </div>
-            <div class="platform">
-                <img src="./Images/Frame 1874428499.png" alt="" class="plat-image">
-                <div class="fire">
-                    <h6>Crime</h6>
-                <p>Report criminal incidents and alert the right authorities for timely intervention and response.</p>
+            <div class="platform flex flex-col lg:flex-row items-center gap-3 w-[380px] h-[380px] lg:w-[850px] lg:h-[200px] rounded-[15px] lg:pl-7! pt-5! lg:pt-0! md:w-[360px] md:h-[400px]">
+                <img src="./Images/Frame 1874428499.png" alt="" class="plat-image h-[100px]">
+                <div class="fire flex flex-col gap-2 text-center lg:text-left">
+                    <h6 class="text-[30px] font-bold">Crime</h6>
+                <p class="text-[22px]">Report criminal incidents and alert the right authorities for timely intervention and response.</p>
                 </div>
             </div>
-            <div class="platform">
-                <img src="./Images/Frame 4 (5).png" alt="" class="plat-image">
-                <div class="fire">
-                    <h6>Flood</h6>
-                <p>Report flooding and help communities respond faster before situations become more dangerous.</p>
+            <div class="platform flex flex-col lg:flex-row items-center gap-3 w-[380px] lg:w-[850px] h-[300px] lg:h-[200px] rounded-[15px] lg:pl-7! pt-5! lg:pt-0! md:w-[360px] md:h-[400px]">
+                <img src="./Images/Frame 4 (5).png" alt="" class="plat-image h-[100px]">
+                <div class="fire flex flex-col gap-2 text-center lg:text-left">
+                    <h6 class="text-[30px] font-bold">Flood</h6>
+                <p class="text-[22px]">Report flooding and help communities respond faster before situations become more dangerous.</p>
                 </div>
             </div>
-            <div class="platform">
-                <img src="./Images/Frame 4 (7).png" alt="" class="plat-image">
-                <div class="fire">
-                    <h6>Other</h6>
-                <p>Report any other emergency that needs immediate attention and connect it to appropriate responders.</p>
+            <div class="platform flex flex-col lg:flex-row items-center gap-3 w-[380px] lg:w-[850px] h-[300px] lg:h-[200px] rounded-[15px] lg:pl-7! pt-5! lg:pt-0! md:w-[360px] md:h-[400px]">
+                <img src="./Images/Frame 4 (7).png" alt="" class="plat-image h-[100px]">
+                <div class="fire flex flex-col gap-2 text-center lg:text-left">
+                    <h6 class="text-[30px] font-bold">Other</h6>
+                <p class="text-[22px]">Report any other emergency that needs immediate attention and connect it to appropriate responders.</p>
                 </div>
             </div>
         </div>
     </section>
 
 
-    <section class="download-container">
-        <div class="download">
-            <div class="content">
-                <h1>
+    <section class="download-container mt-50! mb-25!">
+        <div class="download bg-red-800 h-[600px] w-70% lg:ml-60! lg:mr-45! text-white rounded-[20px] border border-red-100">
+            <div class="content pt-35!">
+                <h1 class="text-[50px]/12 font-bold text-center w-[400px] lg:ml-100! lg:w-[400px] md:w-[300px]">
                     Ready to Make a Difference?
                 </h1>
-                <p>Join thousands of people and organizations working together to build a safer communities</p>
+                <p class="text-[27px]/8 text-center w-[380px] md:w-[600px] lg:ml-79! mb-15! mt-10!">
+                    Join thousands of people and organizations working together to build a safer communities
+                </p>
 
-                <button class="download-btn">Download Crisis Connect App</button>
+                <button class="download-btn text-[25px] rounded-[10px] bg-white text-red-800 p-5! lg:ml-100!">Download Crisis Connect App</button>
             </div>
 
-            <div class="relate">
-                <img src="./Images/mock 5.png" alt="" class="black">
-                <img src="./Images/mock 6.png" alt="" class="white">
+            <div class="relate relative top-0 right-0">
+                <img src="./Images/mock 5.png" alt="" class="black absolute lg:-top-149 lg:right-80 z-2 md:-top-149 md:right-50 hidden md:block">
+                <img src="./Images/mock 6.png" alt="" class="white absolute lg:-top-139 lg:right-30 md:-top-149 md:-right-2 hidden md:block">
             </div>
         </div>
     </section>
 
-    <section class="foot">
-        <div class="foot-content">
+    <section class="foot bg-[#0B2447] h-fit lg:h-[400px] w-screen text-white lg:pt-15! lg:pl-40!">
+        <div class="foot-content grid grid-cols-1 pl-20! pt-10! gap-5 lg:grid-cols-5 md:grid-cols-2 md:gap-15">
             <div>
-                <div class="flex gap-2">
+                <div class="flex gap-2 mb-6!">
                     <img src="./Images/logo.png" alt="" class="h-8 w-auto">
-                    <h1 class="foot-logo font-bold">CRISIS <span>CONNECT</span></h1>
+                    <h1 class="foot-logo font-bold text-[20px]">CRISIS <span class="font-light">CONNECT</span></h1>
                 </div>
                 <div>
-                    <p>
+                    <p class="text-[20px] foot-foot">
                         Connecting communities. <br> Coordinating responds. <br> Saving lives.
                     </p>
                 </div>
             </div>
 
             <div>
-                <h1 class="font-bold">Quick Links</h1>
+                <h1 class="font-bold text-[20px] mb-6!">Quick Links</h1>
                 <div>
-                    <ul class="list">
-                        <li>Home</li>
-                        <li>About Us</li>
-                        <li>Emergency Contacts</li>
+                    <ul class="list text-[20px]">
+                        <li class="mb-2!">Home</li>
+                        <li class="mb-2!">About Us</li>
+                        <li class="mb-2!">Emergency Contacts</li>
                         <li>How it works</li>
                     </ul>
                 </div>
             </div>
 
             <div>
-                <h1>Resources</h1>
+                <h1 class="text-[20px] font-bold mb-6!">Resources</h1>
                 <div>
-                    <ul class="list">
-                        <li>Safety tips</li>
-                        <li>Help center</li>
-                        <li>Privacy policy</li>
+                    <ul class="list text-[20px]">
+                        <li class="mb-2!">Safety tips</li>
+                        <li class="mb-2!">Help center</li>
+                        <li class="mb-2!">Privacy policy</li>
                         <li>Terms of service</li>
                     </ul>
                 </div>
             </div>
 
             <div>
-                <h1>Contact Us</h1>
+                <h1 class="text-[20px] font-bold mb-6!">Contact Us</h1>
                 <div>
-                    <ul class="list">
-                        <li>+2348012345678</li>
+                    <ul class="list text-[20px]">
+                        <li class="mb-2!">+2348012345678</li>
                         <li>info@crisisconnect.ng</li>
                     </ul>
                 </div>
             </div>
 
-            <div>
-                <h1>Get the App</h1>
+            <div class="">
+                <h1 class="text-[20px] font-bold mb-6!">Get the App</h1>
                 <div class="list">
-                    <img src="./Images/Frame 1874428537.png" alt="">
+                    <img src="./Images/Frame 1874428537.png" alt="" class="mb-3!">
                     <img src="./Images/Google-play.png" alt="">
                 </div>
             </div>
