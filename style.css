@@ -28,7 +28,7 @@
 }
 
 .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('hero.png');
+    background-image: linear-gradient(rgba(0, 20, 50, 0.7), rgba(0, 10, 30, 0.7)), url('hero.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -37,15 +37,15 @@
 }
 
 .hero-comment {
-    height: 370px;
-    width: 770px;
+    height: 390px;
+    width: 790px;
     padding: 20px 50px;
     border-radius: 20px;
     background-color: rgba(11, 36, 71, 0.8);
 }
 
 .hero-comment h1 {
-    font-size: 40px;
+    font-size: 48px;
     margin-top: 30px;
     line-height: 50px;
     margin-bottom: 20px;
@@ -224,8 +224,8 @@
   left: -15px;
   top: 4%;      
   height: 80%;  
-  width: 4px;        
-  border-left: 4px double #cbd5e1; 
+  width: 1px;        
+  border-left: 1px solid #cbd5e1; 
 }
 
 .test-container > * + * {
@@ -238,8 +238,8 @@
   left: -50px;
   top: 15%;
   height: 70%; 
-  width: 4px; 
-  border-left: 4px double #cbd5e1; 
+  width: 2px; 
+  border-left: 2px solid #cbd5e1; 
 }
 
 
