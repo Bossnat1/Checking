@@ -4,11 +4,11 @@
     box-sizing: border-box;
 }
 
-/*body {
-    font-family: 'Poppins', sans-serif;
+body {
+    font-family: "Manrope", sans-serif;
     margin: auto;
     padding: auto;
-}*/
+}
 
 .logo {
     color: #0B2447;
@@ -107,7 +107,7 @@
 }
 
 .setting {
-    background-color: #F9FAFC;
+    background-color: #FFFFFF;
     height: 1150px;
 }
 
@@ -129,7 +129,7 @@
     padding: 30px;
     border: 1px solid #FFFFFF;
     border-radius: 35px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 2px 30px 0px rgba(7, 26, 51, 0.11);
 }
 
 .works-card h1, .works-card h2 {
@@ -176,23 +176,23 @@
 .card4 {
     position: absolute;
     right: 25px;
-    top: 420px;
+    top: 430px;
 }
 
 .bottom {
     display: flex;
     align-items: center;
     gap: 5px;
-    border: 1px solid #9E1F16;
     border-radius: 15px;
     width: 900px;
     background-color: #FCE4E2;
     color: #9E1F16;
-    padding: 15px 20px;
+    padding: 16px 24px;
+    border-bottom: 0.53px solid #9E1F16;
 }
 
 .bottom h5 {
-    font-size: 25px;
+    font-size: 24px;
     font-weight: bold;
 }
 
@@ -200,6 +200,7 @@
     position: relative;
     top: 870px;
     left: 200px;
+    border-bottom: 0.53px;
 }
 
 .download{
